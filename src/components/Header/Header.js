@@ -48,7 +48,7 @@ const Header = () => (
       </SocialIcons>
       <SocialIcons
         target="_blank"
-        href="https://www.linkedin.com/in/saad-siddiqui-49a51a209/"
+        href="https://www.linkedin.com/in/saad-siddiqui-programmer/"
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
