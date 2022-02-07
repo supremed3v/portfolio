@@ -1,11 +1,22 @@
-import React from 'react';
+import React from "react";
+import { saveAs } from "file-saver";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection } from "./HeroStyles";
 
-const Hero = (props) => (
-  <>
+const Hero = () => {
+  const handleClick = () => {
+    saveAs(
+      "https://drive.google.com/file/d/1pASF9IcugrW23p8NvXNThy8u4V2rQSev/view",
+      "My resume.pdf"
+    );
+  };
+  return (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
@@ -13,12 +24,13 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          Hi, I'm Saad. A Full Stack Web Developer, And UI/UX Designer based
+          always near to you!
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={handleClick}>View Resume</Button>
       </LeftSection>
     </Section>
-  </>
-);
+  );
+};
 
 export default Hero;
