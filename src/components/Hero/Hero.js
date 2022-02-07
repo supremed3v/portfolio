@@ -24,8 +24,17 @@ const Hero = () => {
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-          Hi, I'm Saad. A Full Stack Web Developer, And UI/UX Designer based
-          always near to you!
+          Hi, I'm Saad.{" "}
+          <span
+            style={{
+              textDecoration: "underline",
+              textDecorationColor: "#AAA",
+              textUnderlineOffset: "6px ",
+            }}
+          >
+            A Full Stack MERN Developer & UI/UX Designer{" "}
+          </span>{" "}
+          based in Karachi, Pakistan.
         </SectionText>
         <Button onClick={handleClick}>View Resume</Button>
       </LeftSection>

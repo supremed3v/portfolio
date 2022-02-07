@@ -70,8 +70,8 @@ const Timeline = () => {
         Full Stack Developer with 4+ years of hands-on experience designing,
         developing, and implementing applications and solutions using a range of
         technologies. Living to leverage broad development experience and
-        hands-on technical expertise in a challenging role as a Full-stack
-        Developer.
+        hands-on technical expertise in a challenging role as a Full-stack MERN
+        (MongoDB, Express, React and Node ) Developer.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
