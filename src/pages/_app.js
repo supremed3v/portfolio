@@ -1,5 +1,5 @@
-import Theme from '../styles/theme';
-
+import Theme from "../styles/theme";
+import "../components/GoTop/button.css";
 export default function App({ Component, pageProps }) {
   return (
     <>
@@ -9,4 +9,3 @@ export default function App({ Component, pageProps }) {
     </>
   );
 }
- 

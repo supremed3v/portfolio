@@ -12,7 +12,7 @@ import { LeftSection } from "./HeroStyles";
 const Hero = () => {
   const handleClick = () => {
     saveAs(
-      "https://drive.google.com/file/d/1pASF9IcugrW23p8NvXNThy8u4V2rQSev/view",
+      "https://drive.google.com/file/d/1pASF9IcugrW23p8NvXNThy8u4V2rQSev/view?usp=sharing",
       "My resume.pdf"
     );
   };
